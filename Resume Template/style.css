@@ -1,0 +1,110 @@
+body {
+  padding: 10px;
+  margin: 0;
+}
+.main-div {
+  display: flex;
+  width: 70%;
+  margin: auto;
+  border: dashed 1px black;
+  padding: 10px;
+  border-radius: 10px;
+}
+.left-sidebar {
+  min-width: 250px;
+  padding: 10px;
+  background-color: cornflowerblue;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  border-radius: 10px;
+}
+.right-sidebar {
+  padding: 0 0 0 10px;
+}
+.user-img {
+  height: 200px;
+  border-radius: 100px;
+}
+.img-div {
+  margin-bottom: 10px;
+}
+.name {
+  font-size: 22px;
+  font-weight: bold;
+}
+.designation {
+  font-size: 18px;
+  font-weight: 600;
+}
+.email,
+.phone {
+  font-size: 18px;
+  font-style: italic;
+}
+.hr-div {
+  height: 1px;
+  width: 100%;
+  background-color: white;
+  margin: 10px 0;
+}
+.skills-div {
+  width: 100%;
+}
+.skills-div > ul > li {
+  font-size: 16px;
+  font-weight: 600;
+}
+.skills-heading {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 22px;
+  font-weight: bold;
+}
+.heading {
+  font-size: 20px;
+  font-weight: bold;
+}
+.professional-summary-div:hover {
+  background-color: rgba(128, 128, 128, 0.1);
+}
+.professional-summary-div {
+  padding: 5px 10px;
+  border-radius: 8px;
+  background-color: rgba(128, 128, 128, 0.2);
+  text-align: justify;
+}
+.mb-15 {
+  margin-bottom: 15px;
+}
+.d-flex {
+  display: flex;
+  flex-direction: column;
+}
+.sub-heading {
+  font-size: 18px;
+  font-weight: 500;
+}
+.professional-summary-div > ol,
+.professional-summary-div > ol > li > ul {
+  padding: 0 20px;
+}
+.mt-5 {
+  margin-top: 5px;
+}
+.mt-10 {
+  margin-top: 10px;
+}
+.text-bold {
+  font-weight: 600;
+}
+.mail-div {
+  display: flex;
+  justify-content: center;
+}
+.mr-5 {
+  margin-right: 5px;
+}
